@@ -1,0 +1,129 @@
+body{
+    background-color: #eee;
+}
+
+#main-banner{
+    background-color: #2b7cff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%233d12ff' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%232b7cff' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%231378f4' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%230074e8' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23006fdd' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23006bd1' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%230066c6' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%230062ba' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23005dae' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%230058a3' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23005397' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23004e8c' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23004980' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23004475' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23003f6a' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%2300395f' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23003455' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23002f4a' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%23042a40' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover; 
+} 
+
+#main-navbar{
+  color: white;
+  padding: 0;
+}
+
+#main-navbar .navbar-brand{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#main-navbar .navbar-brand span{
+    border-radius: 3px;
+    padding: 5px 9px;
+    background-color: #f74f4f;
+}
+
+#main-logo{
+    width: 100%;
+    background: linear-gradient(to left, #f8e9e9, #fdc1c1);   
+    border-radius: 8px;
+}
+
+.website-info p{
+    font-size: 20px;
+}
+
+.website-info a{
+    color: #ddd;
+    font-size: 18px;
+}
+
+.website-name span:first-child{
+    color: #f74f4f;   
+}
+
+.website-name span:last-child{
+    color: #ffef10;   
+}
+
+#tracking_input{
+    font-size: 20px;
+    padding: 15px 22px;
+}
+
+button.track-btn{
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 19px; 
+}
+
+.info-box{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 4px 6px 12px rgba(0,0,0,0.22);
+    border-bottom: 5px solid #fe696a;
+}
+
+.loader{
+    width:90px; 
+    height:90px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2rem;
+}
+
+/* timeline style */
+
+
+#track-table tr{
+    position: relative;
+    border-bottom:  2px solid #bbb;
+    background-color:#eee; 
+}
+
+#track-table tr:first-child{
+    background-color: #fff !important;  
+}
+
+#track-table tr:first-child td:first-child {
+    font-weight: bold;
+}
+
+#track-table tr > td{
+    padding: 1rem 1.4rem;
+    border: 1px solid #c7c5c5;   
+}
+
+#track-table tr > td:first-child { 
+    border-right: 5px solid #ed5656;    
+    position: relative;
+}
+
+#track-table tr > td:first-child > div.circle{ 
+
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    background-color: rgb(247, 53, 53);    
+    position: absolute;
+    left: 100%;
+    margin-left: -8px;
+    top: 24%;  
+    border: 1px solid rgb(169, 7, 7);     
+}
+
+@media screen and (max-width: 500px){
+    #tracking_input{
+        font-size: 14px;
+        padding: 14px 10px;
+    }
+    
+    button.track-btn{ 
+        padding: 4px 5px;
+        letter-spacing: 1px;
+        font-weight: normal;
+        font-size: 12px; 
+    }
+}

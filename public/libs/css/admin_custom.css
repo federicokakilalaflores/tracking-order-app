@@ -1,0 +1,32 @@
+#logo{
+    color: white;
+    background-color: #fe696a;
+    padding: .8rem 1rem;
+    border-radius: 4px;
+}
+
+#logo span{
+    color: #fe696a;
+    background-color: white;
+    padding: 4px 8px;
+    border-radius: 2px;
+}
+
+table{
+    border-bottom: 2px solid #ddd;
+    width: 100%;
+    text-transform: capitalize; 
+}
+
+i.card-icon{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+img.user-img{
+    display: block;
+    width: 25%; 
+    margin: auto;
+}
